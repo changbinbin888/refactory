@@ -1,7 +1,12 @@
 [
 {
-  "directory": "F:/vscode_project/gtest/build",
-  "command": "D:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\gtest.dir\\main.cpp.obj -c F:\\vscode_project\\gtest\\main.cpp",
-  "file": "F:/vscode_project/gtest/main.cpp"
+  "directory": "F:/vscode_project/gtest/build/source",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\main.cpp",
+  "file": "F:/vscode_project/gtest/source/src/main.cpp"
+},
+{
+  "directory": "F:/vscode_project/gtest/build/test",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp -g -o CMakeFiles\\test.dir\\src\\test.cpp.obj -c F:\\vscode_project\\gtest\\test\\src\\test.cpp",
+  "file": "F:/vscode_project/gtest/test/src/test.cpp"
 }
 ]

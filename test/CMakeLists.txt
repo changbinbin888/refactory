@@ -1,11 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(test VERSION 0.1.0)
+#project(test VERSION 0.1.0)
 
-include(CTest)
-enable_testing()
+LINK_DIRECTORIES(lib)
 
 add_executable(test src/test.cpp)
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+include_directories(include)
+
+TARGET_LINK_LIBRARIES(test gtest)
