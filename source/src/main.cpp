@@ -9,10 +9,10 @@ int Add(int a, int b)
     return sum;
 }
 
-int main()
-{
-    cout << "gtest project begin" << endl;
-    int sum = Add(1, 2);
-    cout << "gtest project end" << endl;
-    return 0;
-}
+// int main()
+// {
+//     cout << "gtest project begin" << endl;
+//     int sum = Add(1, 2);
+//     cout << "gtest project end" << endl;
+//     return 0;
+// }

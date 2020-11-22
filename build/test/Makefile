@@ -165,6 +165,33 @@ test/fast:
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+__/source/src/main.obj: __/source/src/main.cpp.obj
+
+.PHONY : __/source/src/main.obj
+
+# target to build an object file
+__/source/src/main.cpp.obj:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/__/source/src/main.cpp.obj
+.PHONY : __/source/src/main.cpp.obj
+
+__/source/src/main.i: __/source/src/main.cpp.i
+
+.PHONY : __/source/src/main.i
+
+# target to preprocess a source file
+__/source/src/main.cpp.i:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/__/source/src/main.cpp.i
+.PHONY : __/source/src/main.cpp.i
+
+__/source/src/main.s: __/source/src/main.cpp.s
+
+.PHONY : __/source/src/main.s
+
+# target to generate assembly for a file
+__/source/src/main.cpp.s:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/__/source/src/main.cpp.s
+.PHONY : __/source/src/main.cpp.s
+
 src/test.obj: src/test.cpp.obj
 
 .PHONY : src/test.obj
@@ -203,6 +230,9 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... __/source/src/main.obj
+	@echo ... __/source/src/main.i
+	@echo ... __/source/src/main.s
 	@echo ... src/test.obj
 	@echo ... src/test.i
 	@echo ... src/test.s

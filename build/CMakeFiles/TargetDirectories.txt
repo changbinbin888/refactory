@@ -2,11 +2,6 @@ F:/vscode_project/gtest/build/CMakeFiles/package.dir
 F:/vscode_project/gtest/build/CMakeFiles/package_source.dir
 F:/vscode_project/gtest/build/CMakeFiles/edit_cache.dir
 F:/vscode_project/gtest/build/CMakeFiles/rebuild_cache.dir
-F:/vscode_project/gtest/build/source/CMakeFiles/edit_cache.dir
-F:/vscode_project/gtest/build/source/CMakeFiles/main.dir
-F:/vscode_project/gtest/build/source/CMakeFiles/package.dir
-F:/vscode_project/gtest/build/source/CMakeFiles/package_source.dir
-F:/vscode_project/gtest/build/source/CMakeFiles/rebuild_cache.dir
 F:/vscode_project/gtest/build/test/CMakeFiles/rebuild_cache.dir
 F:/vscode_project/gtest/build/test/CMakeFiles/test.dir
 F:/vscode_project/gtest/build/test/CMakeFiles/package.dir

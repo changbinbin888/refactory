@@ -151,19 +151,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -186,7 +173,6 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... main
 	@echo ... test
 .PHONY : help
 

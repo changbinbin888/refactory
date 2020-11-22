@@ -3,9 +3,8 @@ project(gtest VERSION 0.1.0)
 
 #add_executable(gtest main.cpp)
 
-add_subdirectory(source)
-
 add_subdirectory(test)
 
+#add_subdirectory(source)
 
 

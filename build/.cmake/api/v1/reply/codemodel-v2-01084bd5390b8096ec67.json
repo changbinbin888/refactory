@@ -8,8 +8,7 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1,
-						2
+						1
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -17,20 +16,6 @@
 					},
 					"projectIndex" : 0,
 					"source" : "."
-				},
-				{
-					"build" : "source",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.0.0"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "source",
-					"targetIndexes" : 
-					[
-						0
-					]
 				},
 				{
 					"build" : "test",
@@ -43,7 +28,7 @@
 					"source" : "test",
 					"targetIndexes" : 
 					[
-						1
+						0
 					]
 				}
 			],
@@ -54,14 +39,12 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					],
 					"name" : "gtest",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -69,15 +52,8 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "main::@411ffd8adc737496fe19",
-					"jsonFile" : "target-main-Debug-840833fac98a0fadc9da.json",
-					"name" : "main",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 2,
 					"id" : "test::@36f028580bb02cc8272a",
-					"jsonFile" : "target-test-Debug-443eb5884b944f9273ca.json",
+					"jsonFile" : "target-test-Debug-45b6a8a073300da7c0dd.json",
 					"name" : "test",
 					"projectIndex" : 0
 				}

@@ -35,7 +35,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.0-rc2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.19.0-rc2/CMakeSystem.cmake"
-  "../source/CMakeLists.txt"
   "../test/CMakeLists.txt"
   )
 
@@ -48,12 +47,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "source/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "source/CMakeFiles/main.dir/DependInfo.cmake"
   "test/CMakeFiles/test.dir/DependInfo.cmake"
   )
