@@ -1,0 +1,7 @@
+[
+{
+  "directory": "F:/vscode_project/gtest/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\gtest.dir\\main.cpp.obj -c F:\\vscode_project\\gtest\\main.cpp",
+  "file": "F:/vscode_project/gtest/main.cpp"
+}
+]
