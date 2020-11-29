@@ -85,28 +85,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d F:\vscode_project\gtest\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d F:\vscode_project\gtest\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake F:/vscode_project/gtest/build/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -151,6 +129,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/exmaple.dir/rule:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/exmaple.dir/rule
+.PHONY : source/CMakeFiles/exmaple.dir/rule
+
+# Convenience name for target.
+exmaple: source/CMakeFiles/exmaple.dir/rule
+
+.PHONY : exmaple
+
+# fast build rule for target.
+exmaple/fast:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\exmaple.dir\build.make source/CMakeFiles/exmaple.dir/build
+.PHONY : exmaple/fast
+
+# Convenience name for target.
 source/CMakeFiles/main.dir/rule:
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/main.dir/rule
 .PHONY : source/CMakeFiles/main.dir/rule
@@ -165,12 +158,40 @@ main/fast:
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/exmaple.obj: src/exmaple.cpp.obj
+
+.PHONY : src/exmaple.obj
+
+# target to build an object file
+src/exmaple.cpp.obj:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\exmaple.dir\build.make source/CMakeFiles/exmaple.dir/src/exmaple.cpp.obj
+.PHONY : src/exmaple.cpp.obj
+
+src/exmaple.i: src/exmaple.cpp.i
+
+.PHONY : src/exmaple.i
+
+# target to preprocess a source file
+src/exmaple.cpp.i:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\exmaple.dir\build.make source/CMakeFiles/exmaple.dir/src/exmaple.cpp.i
+.PHONY : src/exmaple.cpp.i
+
+src/exmaple.s: src/exmaple.cpp.s
+
+.PHONY : src/exmaple.s
+
+# target to generate assembly for a file
+src/exmaple.cpp.s:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\exmaple.dir\build.make source/CMakeFiles/exmaple.dir/src/exmaple.cpp.s
+.PHONY : src/exmaple.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\exmaple.dir\build.make source/CMakeFiles/exmaple.dir/src/main.cpp.obj
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
@@ -180,6 +201,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\exmaple.dir\build.make source/CMakeFiles/exmaple.dir/src/main.cpp.i
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
@@ -189,6 +211,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\exmaple.dir\build.make source/CMakeFiles/exmaple.dir/src/main.cpp.s
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
@@ -199,10 +222,12 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... package
-	@echo ... package_source
 	@echo ... rebuild_cache
+	@echo ... exmaple
 	@echo ... main
+	@echo ... src/exmaple.obj
+	@echo ... src/exmaple.i
+	@echo ... src/exmaple.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

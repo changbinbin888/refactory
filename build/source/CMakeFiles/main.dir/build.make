@@ -98,6 +98,7 @@ main_EXTERNAL_OBJECTS =
 
 source/main.exe: source/CMakeFiles/main.dir/src/main.cpp.obj
 source/main.exe: source/CMakeFiles/main.dir/build.make
+source/main.exe: source/libexmaple.dll.a
 source/main.exe: source/CMakeFiles/main.dir/linklibs.rsp
 source/main.exe: source/CMakeFiles/main.dir/objects1.rsp
 source/main.exe: source/CMakeFiles/main.dir/link.txt

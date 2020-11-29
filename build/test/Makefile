@@ -85,28 +85,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d F:\vscode_project\gtest\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d F:\vscode_project\gtest\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake F:/vscode_project/gtest/build/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -165,59 +143,59 @@ test/fast:
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-__/source/src/main.obj: __/source/src/main.cpp.obj
+src/exmaple_ut.obj: src/exmaple_ut.cpp.obj
 
-.PHONY : __/source/src/main.obj
-
-# target to build an object file
-__/source/src/main.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/__/source/src/main.cpp.obj
-.PHONY : __/source/src/main.cpp.obj
-
-__/source/src/main.i: __/source/src/main.cpp.i
-
-.PHONY : __/source/src/main.i
-
-# target to preprocess a source file
-__/source/src/main.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/__/source/src/main.cpp.i
-.PHONY : __/source/src/main.cpp.i
-
-__/source/src/main.s: __/source/src/main.cpp.s
-
-.PHONY : __/source/src/main.s
-
-# target to generate assembly for a file
-__/source/src/main.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/__/source/src/main.cpp.s
-.PHONY : __/source/src/main.cpp.s
-
-src/test.obj: src/test.cpp.obj
-
-.PHONY : src/test.obj
+.PHONY : src/exmaple_ut.obj
 
 # target to build an object file
-src/test.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/test.cpp.obj
-.PHONY : src/test.cpp.obj
+src/exmaple_ut.cpp.obj:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj
+.PHONY : src/exmaple_ut.cpp.obj
 
-src/test.i: src/test.cpp.i
+src/exmaple_ut.i: src/exmaple_ut.cpp.i
 
-.PHONY : src/test.i
+.PHONY : src/exmaple_ut.i
 
 # target to preprocess a source file
-src/test.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/test.cpp.i
-.PHONY : src/test.cpp.i
+src/exmaple_ut.cpp.i:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/exmaple_ut.cpp.i
+.PHONY : src/exmaple_ut.cpp.i
 
-src/test.s: src/test.cpp.s
+src/exmaple_ut.s: src/exmaple_ut.cpp.s
 
-.PHONY : src/test.s
+.PHONY : src/exmaple_ut.s
 
 # target to generate assembly for a file
-src/test.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/test.cpp.s
-.PHONY : src/test.cpp.s
+src/exmaple_ut.cpp.s:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/exmaple_ut.cpp.s
+.PHONY : src/exmaple_ut.cpp.s
+
+src/main_test.obj: src/main_test.cpp.obj
+
+.PHONY : src/main_test.obj
+
+# target to build an object file
+src/main_test.cpp.obj:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/main_test.cpp.obj
+.PHONY : src/main_test.cpp.obj
+
+src/main_test.i: src/main_test.cpp.i
+
+.PHONY : src/main_test.i
+
+# target to preprocess a source file
+src/main_test.cpp.i:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/main_test.cpp.i
+.PHONY : src/main_test.cpp.i
+
+src/main_test.s: src/main_test.cpp.s
+
+.PHONY : src/main_test.s
+
+# target to generate assembly for a file
+src/main_test.cpp.s:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/main_test.cpp.s
+.PHONY : src/main_test.cpp.s
 
 # Help Target
 help:
@@ -226,16 +204,14 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... package
-	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... __/source/src/main.obj
-	@echo ... __/source/src/main.i
-	@echo ... __/source/src/main.s
-	@echo ... src/test.obj
-	@echo ... src/test.i
-	@echo ... src/test.s
+	@echo ... src/exmaple_ut.obj
+	@echo ... src/exmaple_ut.i
+	@echo ... src/exmaple_ut.s
+	@echo ... src/main_test.obj
+	@echo ... src/main_test.i
+	@echo ... src/main_test.s
 .PHONY : help
 
 

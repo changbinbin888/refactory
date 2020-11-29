@@ -75,45 +75,46 @@ include test/CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/test.dir/flags.make
 
-test/CMakeFiles/test.dir/src/test.cpp.obj: test/CMakeFiles/test.dir/flags.make
-test/CMakeFiles/test.dir/src/test.cpp.obj: test/CMakeFiles/test.dir/includes_CXX.rsp
-test/CMakeFiles/test.dir/src/test.cpp.obj: ../test/src/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/src/test.cpp.obj"
-	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\src\test.cpp.obj -c F:\vscode_project\gtest\test\src\test.cpp
+test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj: test/CMakeFiles/test.dir/includes_CXX.rsp
+test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj: ../test/src/exmaple_ut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj"
+	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\src\exmaple_ut.cpp.obj -c F:\vscode_project\gtest\test\src\exmaple_ut.cpp
 
-test/CMakeFiles/test.dir/src/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/test.cpp.i"
-	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\vscode_project\gtest\test\src\test.cpp > CMakeFiles\test.dir\src\test.cpp.i
+test/CMakeFiles/test.dir/src/exmaple_ut.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/exmaple_ut.cpp.i"
+	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\vscode_project\gtest\test\src\exmaple_ut.cpp > CMakeFiles\test.dir\src\exmaple_ut.cpp.i
 
-test/CMakeFiles/test.dir/src/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/test.cpp.s"
-	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\vscode_project\gtest\test\src\test.cpp -o CMakeFiles\test.dir\src\test.cpp.s
+test/CMakeFiles/test.dir/src/exmaple_ut.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/exmaple_ut.cpp.s"
+	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\vscode_project\gtest\test\src\exmaple_ut.cpp -o CMakeFiles\test.dir\src\exmaple_ut.cpp.s
 
-test/CMakeFiles/test.dir/__/source/src/main.cpp.obj: test/CMakeFiles/test.dir/flags.make
-test/CMakeFiles/test.dir/__/source/src/main.cpp.obj: test/CMakeFiles/test.dir/includes_CXX.rsp
-test/CMakeFiles/test.dir/__/source/src/main.cpp.obj: ../source/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test.dir/__/source/src/main.cpp.obj"
-	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\__\source\src\main.cpp.obj -c F:\vscode_project\gtest\source\src\main.cpp
+test/CMakeFiles/test.dir/src/main_test.cpp.obj: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/src/main_test.cpp.obj: test/CMakeFiles/test.dir/includes_CXX.rsp
+test/CMakeFiles/test.dir/src/main_test.cpp.obj: ../test/src/main_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test.dir/src/main_test.cpp.obj"
+	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\src\main_test.cpp.obj -c F:\vscode_project\gtest\test\src\main_test.cpp
 
-test/CMakeFiles/test.dir/__/source/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/source/src/main.cpp.i"
-	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\vscode_project\gtest\source\src\main.cpp > CMakeFiles\test.dir\__\source\src\main.cpp.i
+test/CMakeFiles/test.dir/src/main_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/main_test.cpp.i"
+	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\vscode_project\gtest\test\src\main_test.cpp > CMakeFiles\test.dir\src\main_test.cpp.i
 
-test/CMakeFiles/test.dir/__/source/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/source/src/main.cpp.s"
-	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\vscode_project\gtest\source\src\main.cpp -o CMakeFiles\test.dir\__\source\src\main.cpp.s
+test/CMakeFiles/test.dir/src/main_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/main_test.cpp.s"
+	cd /d F:\vscode_project\gtest\build\test && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\vscode_project\gtest\test\src\main_test.cpp -o CMakeFiles\test.dir\src\main_test.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/src/test.cpp.obj" \
-"CMakeFiles/test.dir/__/source/src/main.cpp.obj"
+"CMakeFiles/test.dir/src/exmaple_ut.cpp.obj" \
+"CMakeFiles/test.dir/src/main_test.cpp.obj"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test/test.exe: test/CMakeFiles/test.dir/src/test.cpp.obj
-test/test.exe: test/CMakeFiles/test.dir/__/source/src/main.cpp.obj
+test/test.exe: test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj
+test/test.exe: test/CMakeFiles/test.dir/src/main_test.cpp.obj
 test/test.exe: test/CMakeFiles/test.dir/build.make
+test/test.exe: source/libexmaple.dll.a
 test/test.exe: test/CMakeFiles/test.dir/linklibs.rsp
 test/test.exe: test/CMakeFiles/test.dir/objects1.rsp
 test/test.exe: test/CMakeFiles/test.dir/link.txt

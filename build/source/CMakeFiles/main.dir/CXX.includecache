@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../source/include/exmaple.h
+
 F:/vscode_project/gtest/source/src/main.cpp
 iostream
 -
+exmaple.h
+F:/vscode_project/gtest/source/src/exmaple.h
 

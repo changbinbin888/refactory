@@ -3,9 +3,10 @@ cmake_minimum_required(VERSION 3.0.0)
 
 LINK_DIRECTORIES(lib)
 
-add_executable(test src/test.cpp ../source/src/main.cpp)
-
 include_directories(include)
 
-TARGET_LINK_LIBRARIES(test gtest)
+aux_source_directory("./src" SRC_DIR)
+
+add_executable(test ${SRC_DIR})
+TARGET_LINK_LIBRARIES(test gtest exmaple)
 

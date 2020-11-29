@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/vscode_project/gtest/source/src/main.cpp" "F:/vscode_project/gtest/build/test/CMakeFiles/test.dir/__/source/src/main.cpp.obj"
-  "F:/vscode_project/gtest/test/src/test.cpp" "F:/vscode_project/gtest/build/test/CMakeFiles/test.dir/src/test.cpp.obj"
+  "F:/vscode_project/gtest/test/src/exmaple_ut.cpp" "F:/vscode_project/gtest/build/test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj"
+  "F:/vscode_project/gtest/test/src/main_test.cpp" "F:/vscode_project/gtest/build/test/CMakeFiles/test.dir/src/main_test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,6 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "F:/vscode_project/gtest/build/source/CMakeFiles/exmaple.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

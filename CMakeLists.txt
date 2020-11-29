@@ -5,6 +5,6 @@ project(gtest VERSION 0.1.0)
 
 add_subdirectory(test)
 
-#add_subdirectory(source)
+add_subdirectory(source)
 
 

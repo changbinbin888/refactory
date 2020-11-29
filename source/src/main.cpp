@@ -1,18 +1,13 @@
 #include <iostream>
+#include "exmaple.h"
+
 
 using namespace std;
 
-int Add(int a, int b)
+int main()
 {
-    int sum = a + b;
-    cout << "Add result : " << sum <<endl;
-    return sum;
+    cout << "gtest project begin" << endl;
+    int sum = Add(1, 2);
+    cout << "gtest project end" << endl;
+    return 0;
 }
-
-// int main()
-// {
-//     cout << "gtest project begin" << endl;
-//     int sum = Add(1, 2);
-//     cout << "gtest project end" << endl;
-//     return 0;
-// }

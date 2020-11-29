@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../test/include/exmaple_test.h
+
 ../test/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
 ../test/include/gtest/gtest/internal/gtest-death-test-internal.h
@@ -324,11 +326,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-../test/include/test.h
-
-F:/vscode_project/gtest/test/src/test.cpp
+F:/vscode_project/gtest/test/src/exmaple_ut.cpp
 gtest/gtest.h
 -
-test.h
-F:/vscode_project/gtest/test/src/test.h
+exmaple_test.h
+F:/vscode_project/gtest/test/src/exmaple_test.h
 

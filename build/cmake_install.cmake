@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("F:/vscode_project/gtest/build/test/cmake_install.cmake")
+  include("F:/vscode_project/gtest/build/source/cmake_install.cmake")
 
 endif()
 
