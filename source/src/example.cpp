@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "example.h"
 using namespace std;
 
 int Add(int a, int b)

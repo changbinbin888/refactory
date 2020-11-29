@@ -1,6 +1,5 @@
 #include <iostream>
-#include "exmaple.h"
-
+#include "example.h"
 
 using namespace std;
 
