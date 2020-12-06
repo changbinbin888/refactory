@@ -22,6 +22,9 @@
         "xlocnum": "cpp",
         "xmemory": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "string": "cpp",
+        "algorithm": "cpp",
+        "sstream": "cpp"
     }
 }
