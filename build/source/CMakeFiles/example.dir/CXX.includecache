@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../source/include/customer.h
+rental.h
+../source/include/rental.h
+iostream
+-
+vector
+-
+
 ../source/include/example.h
 
 ../source/include/movie.h
@@ -14,9 +22,21 @@ iostream
 example.h
 ../source/include/example.h
 
-F:/vscode_project/gtest/source/src/movie.cpp
+../source/include/rental.h
 iostream
 -
 movie.h
-F:/vscode_project/gtest/source/src/movie.h
+../source/include/movie.h
+
+F:/vscode_project/gtest/source/src/customer.cpp
+customer.h
+F:/vscode_project/gtest/source/src/customer.h
+iostream
+-
+sstream
+-
+limits
+-
+string
+-
 

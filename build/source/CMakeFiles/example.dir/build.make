@@ -75,10 +75,24 @@ include source/CMakeFiles/example.dir/progress.make
 # Include the compile flags for this target's objects.
 include source/CMakeFiles/example.dir/flags.make
 
+source/CMakeFiles/example.dir/src/customer.cpp.obj: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/src/customer.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
+source/CMakeFiles/example.dir/src/customer.cpp.obj: ../source/src/customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/example.dir/src/customer.cpp.obj"
+	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\src\customer.cpp.obj -c F:\vscode_project\gtest\source\src\customer.cpp
+
+source/CMakeFiles/example.dir/src/customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/src/customer.cpp.i"
+	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\vscode_project\gtest\source\src\customer.cpp > CMakeFiles\example.dir\src\customer.cpp.i
+
+source/CMakeFiles/example.dir/src/customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/customer.cpp.s"
+	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\vscode_project\gtest\source\src\customer.cpp -o CMakeFiles\example.dir\src\customer.cpp.s
+
 source/CMakeFiles/example.dir/src/example.cpp.obj: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/src/example.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
 source/CMakeFiles/example.dir/src/example.cpp.obj: ../source/src/example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/example.dir/src/example.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/example.dir/src/example.cpp.obj"
 	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\src\example.cpp.obj -c F:\vscode_project\gtest\source\src\example.cpp
 
 source/CMakeFiles/example.dir/src/example.cpp.i: cmake_force
@@ -92,7 +106,7 @@ source/CMakeFiles/example.dir/src/example.cpp.s: cmake_force
 source/CMakeFiles/example.dir/src/main.cpp.obj: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/src/main.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
 source/CMakeFiles/example.dir/src/main.cpp.obj: ../source/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/example.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/example.dir/src/main.cpp.obj"
 	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\src\main.cpp.obj -c F:\vscode_project\gtest\source\src\main.cpp
 
 source/CMakeFiles/example.dir/src/main.cpp.i: cmake_force
@@ -106,7 +120,7 @@ source/CMakeFiles/example.dir/src/main.cpp.s: cmake_force
 source/CMakeFiles/example.dir/src/movie.cpp.obj: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/src/movie.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
 source/CMakeFiles/example.dir/src/movie.cpp.obj: ../source/src/movie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/example.dir/src/movie.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/example.dir/src/movie.cpp.obj"
 	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\src\movie.cpp.obj -c F:\vscode_project\gtest\source\src\movie.cpp
 
 source/CMakeFiles/example.dir/src/movie.cpp.i: cmake_force
@@ -120,7 +134,7 @@ source/CMakeFiles/example.dir/src/movie.cpp.s: cmake_force
 source/CMakeFiles/example.dir/src/rental.cpp.obj: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/src/rental.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
 source/CMakeFiles/example.dir/src/rental.cpp.obj: ../source/src/rental.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/example.dir/src/rental.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/src/rental.cpp.obj"
 	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\src\rental.cpp.obj -c F:\vscode_project\gtest\source\src\rental.cpp
 
 source/CMakeFiles/example.dir/src/rental.cpp.i: cmake_force
@@ -133,6 +147,7 @@ source/CMakeFiles/example.dir/src/rental.cpp.s: cmake_force
 
 # Object files for target example
 example_OBJECTS = \
+"CMakeFiles/example.dir/src/customer.cpp.obj" \
 "CMakeFiles/example.dir/src/example.cpp.obj" \
 "CMakeFiles/example.dir/src/main.cpp.obj" \
 "CMakeFiles/example.dir/src/movie.cpp.obj" \
@@ -141,13 +156,14 @@ example_OBJECTS = \
 # External object files for target example
 example_EXTERNAL_OBJECTS =
 
+source/libexample.a: source/CMakeFiles/example.dir/src/customer.cpp.obj
 source/libexample.a: source/CMakeFiles/example.dir/src/example.cpp.obj
 source/libexample.a: source/CMakeFiles/example.dir/src/main.cpp.obj
 source/libexample.a: source/CMakeFiles/example.dir/src/movie.cpp.obj
 source/libexample.a: source/CMakeFiles/example.dir/src/rental.cpp.obj
 source/libexample.a: source/CMakeFiles/example.dir/build.make
 source/libexample.a: source/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libexample.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libexample.a"
 	cd /d F:\vscode_project\gtest\build\source && $(CMAKE_COMMAND) -P CMakeFiles\example.dir\cmake_clean_target.cmake
 	cd /d F:\vscode_project\gtest\build\source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\example.dir\link.txt --verbose=$(VERBOSE)
 

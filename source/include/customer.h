@@ -1,8 +1,10 @@
 #ifndef __CUSTOMER_H__
 #define __CUSTOMER_H__
 
-#include <iostream>
+
 #include "rental.h"
+#include <iostream>
+#include <vector>
 
 using namespace std;
 

@@ -12,9 +12,9 @@ private:
     string title;
     int priceCode;
 public:
-    const int childrens = 2;
-    const int regular = 0;
-    const int newRelease = 1;
+    static const int childrens = 2;
+    static const int regular = 0;
+    static const int newRelease = 1;
 
     Movie();
     ~Movie();

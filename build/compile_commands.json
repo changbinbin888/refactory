@@ -11,6 +11,11 @@
 },
 {
   "directory": "F:/vscode_project/gtest/build/source",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\example.dir\\src\\customer.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\customer.cpp",
+  "file": "F:/vscode_project/gtest/source/src/customer.cpp"
+},
+{
+  "directory": "F:/vscode_project/gtest/build/source",
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\example.dir\\src\\example.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\example.cpp",
   "file": "F:/vscode_project/gtest/source/src/example.cpp"
 },

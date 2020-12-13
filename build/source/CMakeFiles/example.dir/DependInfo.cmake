@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "F:/vscode_project/gtest/source/src/customer.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/example.dir/src/customer.cpp.obj"
   "F:/vscode_project/gtest/source/src/example.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/example.dir/src/example.cpp.obj"
   "F:/vscode_project/gtest/source/src/main.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/example.dir/src/main.cpp.obj"
   "F:/vscode_project/gtest/source/src/movie.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/example.dir/src/movie.cpp.obj"
