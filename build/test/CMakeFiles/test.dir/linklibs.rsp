@@ -1,1 +1,1 @@
-  -LF:/vscode_project/gtest/test/lib  -lgtest -lmockcpp ../source/libexample.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LF:/vscode_project/gtest/test/lib  -LF:/vscode_project/gtest/test/third_party/mockcpp/lib  -LF:/vscode_project/gtest/test/third_party/gmock/lib  -LF:/vscode_project/gtest/test/third_party/gtest/lib  -lgtest -lmockcpp ../source/libexample.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

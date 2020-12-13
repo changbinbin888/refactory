@@ -1,1 +1,1 @@
--IF:/vscode_project/gtest/test/include
+-IF:/vscode_project/gtest/test/include -IF:/vscode_project/gtest/test/third_party/gtest/include -IF:/vscode_project/gtest/test/third_party/gmock/include -IF:/vscode_project/gtest/test/third_party/mockcpp/include -IF:/vscode_project/gtest/test/third_party/mockcpp/3rdparty
