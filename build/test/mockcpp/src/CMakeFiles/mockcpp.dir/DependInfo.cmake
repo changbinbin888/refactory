@@ -1,0 +1,117 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "F:/vscode_project/gtest/test/mockcpp/src/AfterMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/AfterMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/Any.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/Any.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/AnyBase.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/AnyBase.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/AnyCast.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/AnyCast.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ApiHook.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ApiHook.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ApiHookKey.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ApiHookKey.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/Asserter.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/Asserter.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/AssertionFailedError.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/AssertionFailedError.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/BeforeMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/BeforeMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/CallerMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/CallerMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ChainableMockMethodContainer.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ChainableMockMethodContainer.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ChainableMockMethodCore.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ChainableMockMethodCore.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ChainableMockMethodIndexKey.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ChainableMockMethodIndexKey.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ChainableMockMethodNameKey.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ChainableMockMethodNameKey.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ChainableMockObject.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ChainableMockObject.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ChainableMockObjectBase.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ChainableMockObjectBase.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ChainingMockHelper.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ChainingMockHelper.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ConstraintSet.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ConstraintSet.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/DecoratedConstraint.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/DecoratedConstraint.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/DefaultMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/DefaultMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/DefaultStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/DefaultStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/DelegatedMethodGetter.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/DelegatedMethodGetter.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/DieStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/DieStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/Exception.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/Exception.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ExpectsMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ExpectsMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/Formatter.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/Formatter.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/GlobalMockObject.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/GlobalMockObject.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/HookMockObject.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/HookMockObject.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IdentityBuilder.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IdentityBuilder.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IgnoreResultHandler.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IgnoreResultHandler.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IgnoreResultHandlerFactory.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IgnoreResultHandlerFactory.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IgnoreReturnStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IgnoreReturnStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InterfaceInfo.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InterfaceInfo.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/Invocation.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/Invocation.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvocationId.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvocationId.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvocationMockBuilderGetter.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvocationMockBuilderGetter.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvocationMocker.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvocationMocker.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvocationMockerSet.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvocationMockerSet.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvocationTimesMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvocationTimesMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvokedAtLeast.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvokedAtLeast.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvokedAtMost.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvokedAtMost.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvokedExactly.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvokedExactly.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvokedOnce.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvokedOnce.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/InvokedTimesMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/InvokedTimesMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IsAnythingHelper.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IsAnythingHelper.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IsStringContains.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IsStringContains.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IsStringEndWith.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IsStringEndWith.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/IsStringStartWith.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/IsStringStartWith.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/JmpCode.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/JmpCode.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/JmpOnlyApiHook.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/JmpOnlyApiHook.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/MethodIndiceChecker.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/MethodIndiceChecker.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/MismatchResultHandler.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/MismatchResultHandler.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/MismatchResultHandlerFactory.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/MismatchResultHandlerFactory.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/MockObjectBase.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/MockObjectBase.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/NormalResultHandler.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/NormalResultHandler.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/NormalResultHandlerFactory.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/NormalResultHandlerFactory.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/OutBoundPointer.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/OutBoundPointer.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/PendingMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/PendingMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ProcStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ProcStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/RefAny.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/RefAny.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/RepeatStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/RepeatStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/Result.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/Result.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ReturnObjectList.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ReturnObjectList.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ReturnStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ReturnStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/SimpleInvocationRecorder.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/SimpleInvocationRecorder.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/StringConstraint.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/StringConstraint.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/StubContainer.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/StubContainer.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/StubsMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/StubsMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/TestFailureMatcher.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/TestFailureMatcher.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ThenStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ThenStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/TypeString.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/TypeString.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/TypelessConstraintAdapter.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/TypelessConstraintAdapter.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/TypelessStubAdapter.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/TypelessStubAdapter.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/UnixCodeModifier.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/UnixCodeModifier.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/VirtualTable.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/VirtualTable.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/VirtualTableUtils.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/VirtualTableUtils.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/VoidResultHandler.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/VoidResultHandler.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/VoidResultHandlerFactory.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/VoidResultHandlerFactory.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/WillStub.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/WillStub.cpp.obj"
+  "F:/vscode_project/gtest/test/mockcpp/src/ports/failure/stdexcept_report_failure.cpp" "F:/vscode_project/gtest/build/test/mockcpp/src/CMakeFiles/mockcpp.dir/ports/failure/stdexcept_report_failure.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "MOCKCPP_ALLOW_MULTI_INHERITANCE=1"
+  "MOCKCPP_MAX_INHERITANCE=2"
+  "MOCKCPP_MAX_PARAMETERS=12"
+  "MOCKCPP_MAX_VTBL_SIZE=20"
+  "MOCKCPP_NO_NAMESPACE=0"
+  "PACKAGE=\"mockcpp\""
+  "PACKAGE_BUGREPORT=\"dev.mockcpp@gmail.com\""
+  "PACKAGE_NAME=\"mockcpp\""
+  "PACKAGE_STRING=\"mockcpp\""
+  "PACKAGE_URL=\"http://code.google.com/p/mockcpp\""
+  "VERSION=\"2.6\""
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../3rdparty"
+  "../include"
+  "../test/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
