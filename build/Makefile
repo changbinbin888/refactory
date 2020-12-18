@@ -142,17 +142,17 @@ test/fast:
 .PHONY : test/fast
 
 #=============================================================================
-# Target rules for targets named example
+# Target rules for targets named customer
 
 # Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 example
-.PHONY : example
+customer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 customer
+.PHONY : customer
 
 # fast build rule for target.
-example/fast:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/build
-.PHONY : example/fast
+customer/fast:
+	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/build
+.PHONY : customer/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -175,7 +175,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... example
+	@echo ... customer
 	@echo ... main
 	@echo ... test
 .PHONY : help

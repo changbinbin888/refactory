@@ -109,7 +109,7 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "example::@411ffd8adc737496fe19"
+			"id" : "customer::@411ffd8adc737496fe19"
 		}
 	],
 	"id" : "test::@36f028580bb02cc8272a",
@@ -157,7 +157,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\source\\libexample.a",
+				"fragment" : "..\\source\\libcustomer.a",
 				"role" : "libraries"
 			},
 			{
@@ -190,7 +190,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test/src/exmaple_ut.cpp",
+			"path" : "test/src/customer_test.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

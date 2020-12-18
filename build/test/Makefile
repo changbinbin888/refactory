@@ -143,32 +143,32 @@ test/fast:
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-src/exmaple_ut.obj: src/exmaple_ut.cpp.obj
+src/customer_test.obj: src/customer_test.cpp.obj
 
-.PHONY : src/exmaple_ut.obj
+.PHONY : src/customer_test.obj
 
 # target to build an object file
-src/exmaple_ut.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/exmaple_ut.cpp.obj
-.PHONY : src/exmaple_ut.cpp.obj
+src/customer_test.cpp.obj:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/customer_test.cpp.obj
+.PHONY : src/customer_test.cpp.obj
 
-src/exmaple_ut.i: src/exmaple_ut.cpp.i
+src/customer_test.i: src/customer_test.cpp.i
 
-.PHONY : src/exmaple_ut.i
+.PHONY : src/customer_test.i
 
 # target to preprocess a source file
-src/exmaple_ut.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/exmaple_ut.cpp.i
-.PHONY : src/exmaple_ut.cpp.i
+src/customer_test.cpp.i:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/customer_test.cpp.i
+.PHONY : src/customer_test.cpp.i
 
-src/exmaple_ut.s: src/exmaple_ut.cpp.s
+src/customer_test.s: src/customer_test.cpp.s
 
-.PHONY : src/exmaple_ut.s
+.PHONY : src/customer_test.s
 
 # target to generate assembly for a file
-src/exmaple_ut.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/exmaple_ut.cpp.s
-.PHONY : src/exmaple_ut.cpp.s
+src/customer_test.cpp.s:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/src/customer_test.cpp.s
+.PHONY : src/customer_test.cpp.s
 
 src/main_test.obj: src/main_test.cpp.obj
 
@@ -206,9 +206,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... src/exmaple_ut.obj
-	@echo ... src/exmaple_ut.i
-	@echo ... src/exmaple_ut.s
+	@echo ... src/customer_test.obj
+	@echo ... src/customer_test.i
+	@echo ... src/customer_test.s
 	@echo ... src/main_test.obj
 	@echo ... src/main_test.i
 	@echo ... src/main_test.s

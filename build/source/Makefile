@@ -129,19 +129,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/CMakeFiles/example.dir/rule:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/example.dir/rule
-.PHONY : source/CMakeFiles/example.dir/rule
+source/CMakeFiles/customer.dir/rule:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/customer.dir/rule
+.PHONY : source/CMakeFiles/customer.dir/rule
 
 # Convenience name for target.
-example: source/CMakeFiles/example.dir/rule
+customer: source/CMakeFiles/customer.dir/rule
 
-.PHONY : example
+.PHONY : customer
 
 # fast build rule for target.
-example/fast:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/build
-.PHONY : example/fast
+customer/fast:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/build
+.PHONY : customer/fast
 
 # Convenience name for target.
 source/CMakeFiles/main.dir/rule:
@@ -164,7 +164,7 @@ src/customer.obj: src/customer.cpp.obj
 
 # target to build an object file
 src/customer.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/customer.cpp.obj
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/customer.cpp.obj
 .PHONY : src/customer.cpp.obj
 
 src/customer.i: src/customer.cpp.i
@@ -173,7 +173,7 @@ src/customer.i: src/customer.cpp.i
 
 # target to preprocess a source file
 src/customer.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/customer.cpp.i
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/customer.cpp.i
 .PHONY : src/customer.cpp.i
 
 src/customer.s: src/customer.cpp.s
@@ -182,35 +182,8 @@ src/customer.s: src/customer.cpp.s
 
 # target to generate assembly for a file
 src/customer.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/customer.cpp.s
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/customer.cpp.s
 .PHONY : src/customer.cpp.s
-
-src/example.obj: src/example.cpp.obj
-
-.PHONY : src/example.obj
-
-# target to build an object file
-src/example.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/example.cpp.obj
-.PHONY : src/example.cpp.obj
-
-src/example.i: src/example.cpp.i
-
-.PHONY : src/example.i
-
-# target to preprocess a source file
-src/example.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/example.cpp.i
-.PHONY : src/example.cpp.i
-
-src/example.s: src/example.cpp.s
-
-.PHONY : src/example.s
-
-# target to generate assembly for a file
-src/example.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/example.cpp.s
-.PHONY : src/example.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -218,7 +191,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/main.cpp.obj
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/main.cpp.obj
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
@@ -228,7 +201,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/main.cpp.i
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/main.cpp.i
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
@@ -238,7 +211,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/main.cpp.s
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/main.cpp.s
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
@@ -248,7 +221,7 @@ src/movie.obj: src/movie.cpp.obj
 
 # target to build an object file
 src/movie.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/movie.cpp.obj
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/movie.cpp.obj
 .PHONY : src/movie.cpp.obj
 
 src/movie.i: src/movie.cpp.i
@@ -257,7 +230,7 @@ src/movie.i: src/movie.cpp.i
 
 # target to preprocess a source file
 src/movie.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/movie.cpp.i
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/movie.cpp.i
 .PHONY : src/movie.cpp.i
 
 src/movie.s: src/movie.cpp.s
@@ -266,7 +239,7 @@ src/movie.s: src/movie.cpp.s
 
 # target to generate assembly for a file
 src/movie.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/movie.cpp.s
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/movie.cpp.s
 .PHONY : src/movie.cpp.s
 
 src/rental.obj: src/rental.cpp.obj
@@ -275,7 +248,7 @@ src/rental.obj: src/rental.cpp.obj
 
 # target to build an object file
 src/rental.cpp.obj:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/rental.cpp.obj
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/rental.cpp.obj
 .PHONY : src/rental.cpp.obj
 
 src/rental.i: src/rental.cpp.i
@@ -284,7 +257,7 @@ src/rental.i: src/rental.cpp.i
 
 # target to preprocess a source file
 src/rental.cpp.i:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/rental.cpp.i
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/rental.cpp.i
 .PHONY : src/rental.cpp.i
 
 src/rental.s: src/rental.cpp.s
@@ -293,7 +266,7 @@ src/rental.s: src/rental.cpp.s
 
 # target to generate assembly for a file
 src/rental.cpp.s:
-	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/src/rental.cpp.s
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/rental.cpp.s
 .PHONY : src/rental.cpp.s
 
 # Help Target
@@ -304,14 +277,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... example
+	@echo ... customer
 	@echo ... main
 	@echo ... src/customer.obj
 	@echo ... src/customer.i
 	@echo ... src/customer.s
-	@echo ... src/example.obj
-	@echo ... src/example.i
-	@echo ... src/example.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

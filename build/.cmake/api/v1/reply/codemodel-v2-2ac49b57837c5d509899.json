@@ -71,22 +71,22 @@
 			[
 				{
 					"directoryIndex" : 2,
-					"id" : "example::@411ffd8adc737496fe19",
-					"jsonFile" : "target-example-Debug-5546274cbd530c695b3c.json",
-					"name" : "example",
+					"id" : "customer::@411ffd8adc737496fe19",
+					"jsonFile" : "target-customer-Debug-698c979387fba818d06e.json",
+					"name" : "customer",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "main::@411ffd8adc737496fe19",
-					"jsonFile" : "target-main-Debug-75d3eb1c4e2644fa212f.json",
+					"jsonFile" : "target-main-Debug-3d31e6d3e4a809bf75f1.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "test::@36f028580bb02cc8272a",
-					"jsonFile" : "target-test-Debug-dfb04e799364eff3a152.json",
+					"jsonFile" : "target-test-Debug-9dce5e79d4d8ea5cc5cd.json",
 					"name" : "test",
 					"projectIndex" : 0
 				}

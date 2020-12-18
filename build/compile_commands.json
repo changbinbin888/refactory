@@ -1,8 +1,8 @@
 [
 {
   "directory": "F:/vscode_project/gtest/build/test",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\test.dir\\src\\exmaple_ut.cpp.obj -c F:\\vscode_project\\gtest\\test\\src\\exmaple_ut.cpp",
-  "file": "F:/vscode_project/gtest/test/src/exmaple_ut.cpp"
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/test.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\test.dir\\src\\customer_test.cpp.obj -c F:\\vscode_project\\gtest\\test\\src\\customer_test.cpp",
+  "file": "F:/vscode_project/gtest/test/src/customer_test.cpp"
 },
 {
   "directory": "F:/vscode_project/gtest/build/test",
@@ -11,27 +11,22 @@
 },
 {
   "directory": "F:/vscode_project/gtest/build/source",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\example.dir\\src\\customer.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\customer.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/customer.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\customer.dir\\src\\customer.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\customer.cpp",
   "file": "F:/vscode_project/gtest/source/src/customer.cpp"
 },
 {
   "directory": "F:/vscode_project/gtest/build/source",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\example.dir\\src\\example.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\example.cpp",
-  "file": "F:/vscode_project/gtest/source/src/example.cpp"
-},
-{
-  "directory": "F:/vscode_project/gtest/build/source",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\example.dir\\src\\main.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\main.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/customer.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\customer.dir\\src\\main.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\main.cpp",
   "file": "F:/vscode_project/gtest/source/src/main.cpp"
 },
 {
   "directory": "F:/vscode_project/gtest/build/source",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\example.dir\\src\\movie.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\movie.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/customer.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\customer.dir\\src\\movie.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\movie.cpp",
   "file": "F:/vscode_project/gtest/source/src/movie.cpp"
 },
 {
   "directory": "F:/vscode_project/gtest/build/source",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/example.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\example.dir\\src\\rental.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\rental.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/customer.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\customer.dir\\src\\rental.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\rental.cpp",
   "file": "F:/vscode_project/gtest/source/src/rental.cpp"
 },
 {

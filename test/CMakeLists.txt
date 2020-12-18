@@ -20,5 +20,5 @@ aux_source_directory("./src" SRC_DIR)
 
 add_executable(test ${SRC_DIR})
 
-TARGET_LINK_LIBRARIES(test gtest mockcpp example)
+TARGET_LINK_LIBRARIES(test gtest mockcpp customer)
 

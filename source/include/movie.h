@@ -3,7 +3,6 @@
 
 
 #include <iostream>
-#include "example.h"
 using namespace std;
 
 class Movie

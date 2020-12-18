@@ -9,9 +9,9 @@ include_directories(include)
 aux_source_directory("./src" SRC_DIR)
 list(REMOVE_ITEM SRC_DIR "main.cpp")
 
-add_library(example ${SRC_DIR})
+add_library(customer ${SRC_DIR})
 
 add_executable(main src/main.cpp)
-target_link_libraries(main example)
+target_link_libraries(main customer)
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")

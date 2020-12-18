@@ -92,7 +92,7 @@ clean: source/clean
 # Directory level rules for directory source
 
 # Recursive "all" directory target.
-source/all: source/CMakeFiles/example.dir/all
+source/all: source/CMakeFiles/customer.dir/all
 source/all: source/CMakeFiles/main.dir/all
 
 .PHONY : source/all
@@ -103,7 +103,7 @@ source/preinstall:
 .PHONY : source/preinstall
 
 # Recursive "clean" directory target.
-source/clean: source/CMakeFiles/example.dir/clean
+source/clean: source/CMakeFiles/customer.dir/clean
 source/clean: source/CMakeFiles/main.dir/clean
 
 .PHONY : source/clean
@@ -130,15 +130,15 @@ test/clean: test/CMakeFiles/test.dir/clean
 # Target rules for target test/CMakeFiles/test.dir
 
 # All Build rule for target.
-test/CMakeFiles/test.dir/all: source/CMakeFiles/example.dir/all
+test/CMakeFiles/test.dir/all: source/CMakeFiles/customer.dir/all
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=9,10,11 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=8,9,10 "Built target test"
 .PHONY : test/CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 0
 .PHONY : test/CMakeFiles/test.dir/rule
@@ -154,45 +154,45 @@ test/CMakeFiles/test.dir/clean:
 .PHONY : test/CMakeFiles/test.dir/clean
 
 #=============================================================================
-# Target rules for target source/CMakeFiles/example.dir
+# Target rules for target source/CMakeFiles/customer.dir
 
 # All Build rule for target.
-source/CMakeFiles/example.dir/all:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/depend
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target example"
-.PHONY : source/CMakeFiles/example.dir/all
+source/CMakeFiles/customer.dir/all:
+	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/depend
+	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target customer"
+.PHONY : source/CMakeFiles/customer.dir/all
 
 # Build rule for subdir invocation for target.
-source/CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/example.dir/all
+source/CMakeFiles/customer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/customer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 0
-.PHONY : source/CMakeFiles/example.dir/rule
+.PHONY : source/CMakeFiles/customer.dir/rule
 
 # Convenience name for target.
-example: source/CMakeFiles/example.dir/rule
+customer: source/CMakeFiles/customer.dir/rule
 
-.PHONY : example
+.PHONY : customer
 
 # clean rule for target.
-source/CMakeFiles/example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/clean
-.PHONY : source/CMakeFiles/example.dir/clean
+source/CMakeFiles/customer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/clean
+.PHONY : source/CMakeFiles/customer.dir/clean
 
 #=============================================================================
 # Target rules for target source/CMakeFiles/main.dir
 
 # All Build rule for target.
-source/CMakeFiles/main.dir/all: source/CMakeFiles/example.dir/all
+source/CMakeFiles/main.dir/all: source/CMakeFiles/customer.dir/all
 	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\main.dir\build.make source/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=7,8 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=6,7 "Built target main"
 .PHONY : source/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\vscode_project\gtest\build\CMakeFiles 0
 .PHONY : source/CMakeFiles/main.dir/rule

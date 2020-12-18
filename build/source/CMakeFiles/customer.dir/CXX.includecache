@@ -36,6 +36,10 @@ limits
 string
 -
 
+F:/vscode_project/gtest/source/src/main.cpp
+iostream
+-
+
 F:/vscode_project/gtest/source/src/movie.cpp
 iostream
 -

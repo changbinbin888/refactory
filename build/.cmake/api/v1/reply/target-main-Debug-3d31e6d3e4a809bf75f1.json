@@ -80,7 +80,7 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "example::@411ffd8adc737496fe19"
+			"id" : "customer::@411ffd8adc737496fe19"
 		}
 	],
 	"id" : "main::@411ffd8adc737496fe19",
@@ -103,7 +103,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "libexample.a",
+				"fragment" : "libcustomer.a",
 				"role" : "libraries"
 			},
 			{
