@@ -40,3 +40,28 @@ Movie& Movie::operator = (const Movie& movie)
     }
     return *this;
 }
+
+double Movie::GetAmount(int daysRented)
+{
+    double amountResult = 0;
+    switch (this->GetPriceCode()) {
+    case Movie::regular:
+        amountResult += 2;
+        if (daysRented > 2) {
+            amountResult += (daysRented - 2) * 1.5;
+        }
+        break;
+    case Movie::newRelease:
+        amountResult += daysRented * 3;
+        break;
+    case Movie::childrens:
+        amountResult += 1.5;
+        if (daysRented > 3) {
+            amountResult += (daysRented - 3) * 1.5;
+        }
+        break;
+    default:
+        break;
+    }
+    return amountResult;
+}

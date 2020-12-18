@@ -32,27 +32,7 @@ Movie Rental::GetMovie()
 
 double Rental::GetAmount()
 {
-    double amountResult = 0;
-    switch (this->GetMovie().GetPriceCode()) {
-    case Movie::regular:
-        amountResult += 2;
-        if (this->GetDaysRented() > 2) {
-            amountResult += (this->GetDaysRented() - 2) * 1.5;
-        }
-        break;
-    case Movie::newRelease:
-        amountResult += this->GetDaysRented() * 3;
-        break;
-    case Movie::childrens:
-        amountResult += 1.5;
-        if (this->GetDaysRented() > 3) {
-            amountResult += (this->GetDaysRented() - 3) * 1.5;
-        }
-        break;
-    default:
-        break;
-    }
-    return amountResult;
+    return this->GetMovie().GetAmount(this->GetDaysRented());
 }
 
 int Rental::GetFrequentRenterPoints()

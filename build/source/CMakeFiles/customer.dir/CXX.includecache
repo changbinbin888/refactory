@@ -36,3 +36,17 @@ limits
 string
 -
 
+F:/vscode_project/gtest/source/src/movie.cpp
+iostream
+-
+movie.h
+F:/vscode_project/gtest/source/src/movie.h
+
+F:/vscode_project/gtest/source/src/rental.cpp
+iostream
+-
+movie.h
+F:/vscode_project/gtest/source/src/movie.h
+rental.h
+F:/vscode_project/gtest/source/src/rental.h
+

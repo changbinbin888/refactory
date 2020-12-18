@@ -22,6 +22,7 @@ public:
     void SetPriceCode(int arg);
     string GetTitle();
     Movie& operator = (const Movie& movie);
+    double GetAmount(int daysRented);
 };
 
 
