@@ -23,6 +23,7 @@ public:
     string GetTitle();
     Movie& operator = (const Movie& movie);
     double GetAmount(int daysRented);
+    int GetFrequentRenterPoints(int daysRented);
 };
 
 

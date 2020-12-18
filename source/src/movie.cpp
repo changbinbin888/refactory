@@ -65,3 +65,12 @@ double Movie::GetAmount(int daysRented)
     }
     return amountResult;
 }
+
+int Movie::GetFrequentRenterPoints(int daysRented)
+{
+    int frequentRenterPoints = 1;
+    if ((this->GetPriceCode() == Movie::newRelease) && daysRented > 1) {
+        frequentRenterPoints++;
+    }
+    return frequentRenterPoints;
+}
