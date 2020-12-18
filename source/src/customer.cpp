@@ -37,10 +37,7 @@ string Customer::Statement()
     string result = "Rental Record for " + this->GetName() + "\n";
     vector<Rental>::iterator it;
     for (it = this->rentals.begin(); it != this->rentals.end(); it++) {
-        frequentRenterPoints++;
-        if ((it->GetMovie().GetPriceCode() == Movie::newRelease) && it->GetDaysRented() > 1) {
-            frequentRenterPoints++;
-        }
+        frequentRenterPoints += it->GetFrequentRenterPoints();
         result += "\t" + it->GetMovie().GetTitle() + "\t" + to_string(it->GetAmount()) + "\n";
         totalAmount += it->GetAmount();
     }

@@ -17,6 +17,7 @@ public:
     int GetDaysRented();
     Movie GetMovie();
     double GetAmount();
+    int GetFrequentRenterPoints();
 };
 
 
