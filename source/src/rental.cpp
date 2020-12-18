@@ -58,10 +58,8 @@ double Rental::GetAmount()
 int Rental::GetFrequentRenterPoints()
 {
     int frequentRenterPoints = 1;
-    
     if ((this->GetMovie().GetPriceCode() == Movie::newRelease) && this->GetDaysRented() > 1) {
         frequentRenterPoints++;
     }
-
     return frequentRenterPoints;
 }

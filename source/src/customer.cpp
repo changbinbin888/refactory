@@ -30,19 +30,32 @@ string Customer::GetName()
     return this->name;
 }
 
-string Customer::Statement()
+double Customer::GetTotalAmount()
 {
     double totalAmount = 0;
-    int frequentRenterPoints = 0;
-    string result = "Rental Record for " + this->GetName() + "\n";
-    vector<Rental>::iterator it;
-    for (it = this->rentals.begin(); it != this->rentals.end(); it++) {
-        frequentRenterPoints += it->GetFrequentRenterPoints();
-        result += "\t" + it->GetMovie().GetTitle() + "\t" + to_string(it->GetAmount()) + "\n";
+    for (vector<Rental>::iterator it = this->rentals.begin(); it != this->rentals.end(); it++) {
         totalAmount += it->GetAmount();
     }
-    result += "Amount owed is " + to_string(totalAmount) + "\n";
-    result += "You earned " + to_string(frequentRenterPoints) + " frequent renter points";
+    return totalAmount;
+}
+
+int Customer::GetTotalFrequentRenterPoints()
+{
+    int frequentRenterPoints = 0;
+    for (vector<Rental>::iterator it = this->rentals.begin(); it != this->rentals.end(); it++) {
+        frequentRenterPoints += it->GetFrequentRenterPoints();
+    }
+    return frequentRenterPoints;
+}
+
+string Customer::Statement()
+{
+    string result = "Rental Record for " + this->GetName() + "\n";
+    for (vector<Rental>::iterator it = this->rentals.begin(); it != this->rentals.end(); it++) {
+        result += "\t" + it->GetMovie().GetTitle() + "\t" + to_string(it->GetAmount()) + "\n";
+    }
+    result += "Amount owed is " + to_string(this->GetTotalAmount()) + "\n";
+    result += "You earned " + to_string(this->GetTotalFrequentRenterPoints()) + " frequent renter points";
     return result;
     
 }

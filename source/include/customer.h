@@ -13,6 +13,8 @@ class Customer
 private:
     string name;
     vector<Rental> rentals;
+    double GetTotalAmount();
+    int GetTotalFrequentRenterPoints();
 public:
     Customer(/* args */);
     ~Customer();
