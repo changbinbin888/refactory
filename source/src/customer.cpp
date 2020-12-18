@@ -30,6 +30,31 @@ string Customer::GetName()
     return this->name;
 }
 
+static double GetEachAmount(Rental &eachRental)
+{
+    double amount = 0;
+    switch (eachRental.GetMovie().GetPriceCode()) {
+    case Movie::regular:
+        amount += 2;
+        if (eachRental.GetDaysRented() > 2) {
+            amount += (eachRental.GetDaysRented() - 2) * 1.5;
+        }
+        break;
+    case Movie::newRelease:
+        amount += eachRental.GetDaysRented() * 3;
+        break;
+    case Movie::childrens:
+        amount += 1.5;
+        if (eachRental.GetDaysRented() > 3) {
+            amount += (eachRental.GetDaysRented() - 3) * 1.5;
+        }
+        break;
+    default:
+        break;
+    }
+    return amount;
+}
+
 string Customer::Statement()
 {
     double totalAmount = 0;
@@ -37,35 +62,13 @@ string Customer::Statement()
     string result = "Rental Record for " + this->GetName() + "\n";
     vector<Rental>::iterator it;
     for (it = this->rentals.begin(); it != this->rentals.end(); it++) {
-        double thisAmount = 0;
-        switch (it->GetMovie().GetPriceCode()) {
-        case Movie::regular:
-            thisAmount += 2;
-            if (it->GetDaysRented() > 2) {
-                thisAmount += (it->GetDaysRented() - 2) * 1.5;
-            }
-            break;
-
-        case Movie::newRelease:
-            thisAmount += it->GetDaysRented() * 3;
-            break;
-
-        case Movie::childrens:
-            thisAmount += 1.5;
-            if (it->GetDaysRented() > 3) {
-                thisAmount += (it->GetDaysRented() - 3) * 1.5;
-            }
-            break;
-
-        default:
-            break;
-        }
+        double amount = GetEachAmount(*it);
         frequentRenterPoints++;
         if ((it->GetMovie().GetPriceCode() == Movie::newRelease) && it->GetDaysRented() > 1) {
             frequentRenterPoints++;
         }
-        result += "\t" + it->GetMovie().GetTitle() + "\t" + to_string(thisAmount) + "\n";
-        totalAmount += thisAmount;
+        result += "\t" + it->GetMovie().GetTitle() + "\t" + to_string(amount) + "\n";
+        totalAmount += amount;
     }
     result += "Amount owed is " + to_string(totalAmount) + "\n";
     result += "You earned " + to_string(frequentRenterPoints) + " frequent renter points";
