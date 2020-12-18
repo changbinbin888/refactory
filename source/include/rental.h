@@ -16,6 +16,7 @@ public:
     Rental(Movie movie, int daysRented);
     int GetDaysRented();
     Movie GetMovie();
+    double GetAmount();
 };
 
 

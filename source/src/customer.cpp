@@ -30,31 +30,6 @@ string Customer::GetName()
     return this->name;
 }
 
-static double GetAmountForRental(Rental &aRental)
-{
-    double amountResult = 0;
-    switch (aRental.GetMovie().GetPriceCode()) {
-    case Movie::regular:
-        amountResult += 2;
-        if (aRental.GetDaysRented() > 2) {
-            amountResult += (aRental.GetDaysRented() - 2) * 1.5;
-        }
-        break;
-    case Movie::newRelease:
-        amountResult += aRental.GetDaysRented() * 3;
-        break;
-    case Movie::childrens:
-        amountResult += 1.5;
-        if (aRental.GetDaysRented() > 3) {
-            amountResult += (aRental.GetDaysRented() - 3) * 1.5;
-        }
-        break;
-    default:
-        break;
-    }
-    return amountResult;
-}
-
 string Customer::Statement()
 {
     double totalAmount = 0;
@@ -62,7 +37,7 @@ string Customer::Statement()
     string result = "Rental Record for " + this->GetName() + "\n";
     vector<Rental>::iterator it;
     for (it = this->rentals.begin(); it != this->rentals.end(); it++) {
-        double amount = GetAmountForRental(*it);
+        double amount = it->GetAmount();
         frequentRenterPoints++;
         if ((it->GetMovie().GetPriceCode() == Movie::newRelease) && it->GetDaysRented() > 1) {
             frequentRenterPoints++;
