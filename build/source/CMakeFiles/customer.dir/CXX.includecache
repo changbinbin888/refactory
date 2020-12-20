@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../source/include/customer.h
-rental.h
-../source/include/rental.h
-iostream
--
-vector
--
-
 ../source/include/movie.h
 iostream
 -
@@ -22,35 +14,9 @@ price.h
 
 ../source/include/price.h
 
-../source/include/rental.h
-iostream
--
-movie.h
-../source/include/movie.h
-
-F:/vscode_project/gtest/source/src/customer.cpp
-customer.h
-F:/vscode_project/gtest/source/src/customer.h
-iostream
--
-sstream
--
-limits
--
-string
--
-
 F:/vscode_project/gtest/source/src/movie.cpp
 iostream
 -
 movie.h
 F:/vscode_project/gtest/source/src/movie.h
-
-F:/vscode_project/gtest/source/src/rental.cpp
-iostream
--
-movie.h
-F:/vscode_project/gtest/source/src/movie.h
-rental.h
-F:/vscode_project/gtest/source/src/rental.h
 

@@ -10,6 +10,7 @@ class Movie
 private:
     string title;
     Price* price;
+    int priceCode;
 public:
     static const int childrens = 2;
     static const int regular = 0;

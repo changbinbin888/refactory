@@ -14,8 +14,8 @@ public:
 
     Price(/* args */);
     ~Price();
-    int GetPriceCode();
-    Price& operator = (const Price& price);
+    virtual int GetPriceCode();
+    virtual Price& operator = (const Price& price);
 };
 
 class ChildrensPrice : public Price
