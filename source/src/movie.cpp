@@ -16,16 +16,33 @@ Movie::~Movie()
 Movie::Movie(string title, int priceCode)
 {
     this->title = title;
-    this->priceCode = priceCode;
+    this->SetPriceCode(priceCode);
 }
+
 int Movie::GetPriceCode()
 {
-    return this->priceCode;
+    return this->price->GetPriceCode();
 }
-void Movie::SetPriceCode(int arg)
+
+void Movie::SetPriceCode(int priceCode)
 {
-    this->priceCode = arg;
+    cout << "Movie::SetPriceCode" << to_string(priceCode) << endl;
+    switch (priceCode) {
+    case Price::regular:
+        this->price = new RegularPrice();
+        break;
+    case Price::childrens:
+        this->price = new ChildrensPrice();
+        break;
+    case Price::newRelease:
+        this->price = new NewReleasePrice();
+        break;
+    default:
+        cout << "Movie::SetPriceCode input arg" << to_string(priceCode) << "error" << endl;
+        break;
+    }
 }
+
 string Movie::GetTitle()
 {
     return this->title;
@@ -36,7 +53,7 @@ Movie& Movie::operator = (const Movie& movie)
     if (this != &movie)
     {
         this->title = movie.title;
-        this->priceCode = movie.priceCode;
+        this->price = movie.price;
     }
     return *this;
 }

@@ -117,10 +117,24 @@ source/CMakeFiles/customer.dir/src/movie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/customer.dir/src/movie.cpp.s"
 	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\vscode_project\gtest\source\src\movie.cpp -o CMakeFiles\customer.dir\src\movie.cpp.s
 
+source/CMakeFiles/customer.dir/src/price.cpp.obj: source/CMakeFiles/customer.dir/flags.make
+source/CMakeFiles/customer.dir/src/price.cpp.obj: source/CMakeFiles/customer.dir/includes_CXX.rsp
+source/CMakeFiles/customer.dir/src/price.cpp.obj: ../source/src/price.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/customer.dir/src/price.cpp.obj"
+	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\customer.dir\src\price.cpp.obj -c F:\vscode_project\gtest\source\src\price.cpp
+
+source/CMakeFiles/customer.dir/src/price.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/customer.dir/src/price.cpp.i"
+	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\vscode_project\gtest\source\src\price.cpp > CMakeFiles\customer.dir\src\price.cpp.i
+
+source/CMakeFiles/customer.dir/src/price.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/customer.dir/src/price.cpp.s"
+	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\vscode_project\gtest\source\src\price.cpp -o CMakeFiles\customer.dir\src\price.cpp.s
+
 source/CMakeFiles/customer.dir/src/rental.cpp.obj: source/CMakeFiles/customer.dir/flags.make
 source/CMakeFiles/customer.dir/src/rental.cpp.obj: source/CMakeFiles/customer.dir/includes_CXX.rsp
 source/CMakeFiles/customer.dir/src/rental.cpp.obj: ../source/src/rental.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/customer.dir/src/rental.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/customer.dir/src/rental.cpp.obj"
 	cd /d F:\vscode_project\gtest\build\source && D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\customer.dir\src\rental.cpp.obj -c F:\vscode_project\gtest\source\src\rental.cpp
 
 source/CMakeFiles/customer.dir/src/rental.cpp.i: cmake_force
@@ -136,6 +150,7 @@ customer_OBJECTS = \
 "CMakeFiles/customer.dir/src/customer.cpp.obj" \
 "CMakeFiles/customer.dir/src/main.cpp.obj" \
 "CMakeFiles/customer.dir/src/movie.cpp.obj" \
+"CMakeFiles/customer.dir/src/price.cpp.obj" \
 "CMakeFiles/customer.dir/src/rental.cpp.obj"
 
 # External object files for target customer
@@ -144,10 +159,11 @@ customer_EXTERNAL_OBJECTS =
 source/libcustomer.a: source/CMakeFiles/customer.dir/src/customer.cpp.obj
 source/libcustomer.a: source/CMakeFiles/customer.dir/src/main.cpp.obj
 source/libcustomer.a: source/CMakeFiles/customer.dir/src/movie.cpp.obj
+source/libcustomer.a: source/CMakeFiles/customer.dir/src/price.cpp.obj
 source/libcustomer.a: source/CMakeFiles/customer.dir/src/rental.cpp.obj
 source/libcustomer.a: source/CMakeFiles/customer.dir/build.make
 source/libcustomer.a: source/CMakeFiles/customer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcustomer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\vscode_project\gtest\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcustomer.a"
 	cd /d F:\vscode_project\gtest\build\source && $(CMAKE_COMMAND) -P CMakeFiles\customer.dir\cmake_clean_target.cmake
 	cd /d F:\vscode_project\gtest\build\source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\customer.dir\link.txt --verbose=$(VERBOSE)
 

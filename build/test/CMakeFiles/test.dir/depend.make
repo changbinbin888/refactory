@@ -338,6 +338,7 @@ test/CMakeFiles/test.dir/src/customer_test.cpp.obj: ../test/third_party/mockcpp/
 test/CMakeFiles/test.dir/src/customer_test.cpp.obj: ../test/third_party/mockcpp/include/mockcpp/types/ValueHolder.h
 test/CMakeFiles/test.dir/src/customer_test.cpp.obj: ../source/include/customer.h
 test/CMakeFiles/test.dir/src/customer_test.cpp.obj: ../source/include/movie.h
+test/CMakeFiles/test.dir/src/customer_test.cpp.obj: ../source/include/price.h
 test/CMakeFiles/test.dir/src/customer_test.cpp.obj: ../source/include/rental.h
 test/CMakeFiles/test.dir/src/customer_test.cpp.obj: ../test/src/customer_test.cpp
 

@@ -4,14 +4,20 @@
 source/CMakeFiles/customer.dir/src/customer.cpp.obj
  ../source/include/customer.h
  ../source/include/movie.h
+ ../source/include/price.h
  ../source/include/rental.h
  F:/vscode_project/gtest/source/src/customer.cpp
 source/CMakeFiles/customer.dir/src/main.cpp.obj
  F:/vscode_project/gtest/source/src/main.cpp
 source/CMakeFiles/customer.dir/src/movie.cpp.obj
  ../source/include/movie.h
+ ../source/include/price.h
  F:/vscode_project/gtest/source/src/movie.cpp
+source/CMakeFiles/customer.dir/src/price.cpp.obj
+ ../source/include/price.h
+ F:/vscode_project/gtest/source/src/price.cpp
 source/CMakeFiles/customer.dir/src/rental.cpp.obj
  ../source/include/movie.h
+ ../source/include/price.h
  ../source/include/rental.h
  F:/vscode_project/gtest/source/src/rental.cpp

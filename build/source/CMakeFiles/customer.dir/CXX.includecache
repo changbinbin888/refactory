@@ -17,6 +17,10 @@ vector
 ../source/include/movie.h
 iostream
 -
+price.h
+../source/include/price.h
+
+../source/include/price.h
 
 ../source/include/rental.h
 iostream

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "F:/vscode_project/gtest/source/src/customer.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/customer.dir/src/customer.cpp.obj"
   "F:/vscode_project/gtest/source/src/main.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/customer.dir/src/main.cpp.obj"
   "F:/vscode_project/gtest/source/src/movie.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/customer.dir/src/movie.cpp.obj"
+  "F:/vscode_project/gtest/source/src/price.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/customer.dir/src/price.cpp.obj"
   "F:/vscode_project/gtest/source/src/rental.cpp" "F:/vscode_project/gtest/build/source/CMakeFiles/customer.dir/src/rental.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

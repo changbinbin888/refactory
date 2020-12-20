@@ -339,6 +339,7 @@ test/CMakeFiles/test.dir/src/customer_test.cpp.obj
  ../test/third_party/mockcpp/include/mockcpp/types/ValueHolder.h
  F:/vscode_project/gtest/source/include/customer.h
  F:/vscode_project/gtest/source/include/movie.h
+ F:/vscode_project/gtest/source/include/price.h
  F:/vscode_project/gtest/source/include/rental.h
  F:/vscode_project/gtest/test/src/customer_test.cpp
 test/CMakeFiles/test.dir/src/main_test.cpp.obj

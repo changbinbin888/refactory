@@ -26,6 +26,11 @@
 },
 {
   "directory": "F:/vscode_project/gtest/build/source",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/customer.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\customer.dir\\src\\price.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\price.cpp",
+  "file": "F:/vscode_project/gtest/source/src/price.cpp"
+},
+{
+  "directory": "F:/vscode_project/gtest/build/source",
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/customer.dir/includes_CXX.rsp  -g -g -o CMakeFiles\\customer.dir\\src\\rental.cpp.obj -c F:\\vscode_project\\gtest\\source\\src\\rental.cpp",
   "file": "F:/vscode_project/gtest/source/src/rental.cpp"
 },

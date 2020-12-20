@@ -1,2 +1,2 @@
-D:\mingw64\bin\ar.exe qc libcustomer.a CMakeFiles/customer.dir/src/customer.cpp.obj CMakeFiles/customer.dir/src/main.cpp.obj CMakeFiles/customer.dir/src/movie.cpp.obj CMakeFiles/customer.dir/src/rental.cpp.obj
+D:\mingw64\bin\ar.exe qc libcustomer.a CMakeFiles/customer.dir/src/customer.cpp.obj CMakeFiles/customer.dir/src/main.cpp.obj CMakeFiles/customer.dir/src/movie.cpp.obj CMakeFiles/customer.dir/src/price.cpp.obj CMakeFiles/customer.dir/src/rental.cpp.obj
 D:\mingw64\bin\ranlib.exe libcustomer.a

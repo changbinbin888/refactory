@@ -242,6 +242,33 @@ src/movie.cpp.s:
 	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/movie.cpp.s
 .PHONY : src/movie.cpp.s
 
+src/price.obj: src/price.cpp.obj
+
+.PHONY : src/price.obj
+
+# target to build an object file
+src/price.cpp.obj:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/price.cpp.obj
+.PHONY : src/price.cpp.obj
+
+src/price.i: src/price.cpp.i
+
+.PHONY : src/price.i
+
+# target to preprocess a source file
+src/price.cpp.i:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/price.cpp.i
+.PHONY : src/price.cpp.i
+
+src/price.s: src/price.cpp.s
+
+.PHONY : src/price.s
+
+# target to generate assembly for a file
+src/price.cpp.s:
+	cd /d F:\vscode_project\gtest\build && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\customer.dir\build.make source/CMakeFiles/customer.dir/src/price.cpp.s
+.PHONY : src/price.cpp.s
+
 src/rental.obj: src/rental.cpp.obj
 
 .PHONY : src/rental.obj
@@ -288,6 +315,9 @@ help:
 	@echo ... src/movie.obj
 	@echo ... src/movie.i
 	@echo ... src/movie.s
+	@echo ... src/price.obj
+	@echo ... src/price.i
+	@echo ... src/price.s
 	@echo ... src/rental.obj
 	@echo ... src/rental.i
 	@echo ... src/rental.s
