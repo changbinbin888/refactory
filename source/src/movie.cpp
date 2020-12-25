@@ -1,7 +1,6 @@
 #include <iostream>
 #include "movie.h"
 
-
 using namespace std;
 
 Movie::Movie()
@@ -21,17 +20,12 @@ Movie::Movie(string title, int priceCode)
 }
 
 int Movie::GetPriceCode()
-{
-    if (this->price == NULL) {
-        return this->priceCode;
-    }
-    
+{   
     return this->price->GetPriceCode();
 }
 
 void Movie::SetPriceCode(int priceCode)
 {
-    cout << "Movie::SetPriceCode" << to_string(priceCode) << endl;
     switch (priceCode) {
     case Price::regular:
         this->price = new RegularPrice();
@@ -43,8 +37,7 @@ void Movie::SetPriceCode(int priceCode)
         this->price = new NewReleasePrice();
         break;
     default:
-        this->price = NULL;
-        cout << "Movie::SetPriceCode input arg" << to_string(priceCode) << "error" << endl;
+        this->price = new Price();
         break;
     }
 }
@@ -67,34 +60,10 @@ Movie& Movie::operator = (const Movie& movie)
 
 double Movie::GetAmount(int daysRented)
 {
-    double amountResult = 0;
-    switch (this->GetPriceCode()) {
-    case Movie::regular:
-        amountResult += 2;
-        if (daysRented > 2) {
-            amountResult += (daysRented - 2) * 1.5;
-        }
-        break;
-    case Movie::newRelease:
-        amountResult += daysRented * 3;
-        break;
-    case Movie::childrens:
-        amountResult += 1.5;
-        if (daysRented > 3) {
-            amountResult += (daysRented - 3) * 1.5;
-        }
-        break;
-    default:
-        break;
-    }
-    return amountResult;
+    return this->price->GetCharge(daysRented);
 }
 
 int Movie::GetFrequentRenterPoints(int daysRented)
 {
-    int frequentRenterPoints = 1;
-    if ((this->GetPriceCode() == Movie::newRelease) && daysRented > 1) {
-        frequentRenterPoints++;
-    }
-    return frequentRenterPoints;
+    return this->price->GetFrequentRenterPoints(daysRented);
 }

@@ -16,8 +16,10 @@ public:
     ~Price();
     virtual int GetPriceCode();
     virtual Price& operator = (const Price& price);
+    virtual double GetCharge(int daysRented);
+    virtual int GetFrequentRenterPoints(int daysRented);
 };
-
+   
 class ChildrensPrice : public Price
 {
 private:
@@ -27,6 +29,7 @@ public:
     ~ChildrensPrice();
     int GetPriceCode();
     ChildrensPrice& operator = (const ChildrensPrice& price);
+    double GetCharge(int daysRented);
 };
 
 class NewReleasePrice : public Price
@@ -38,6 +41,8 @@ public:
     ~NewReleasePrice();
     int GetPriceCode();
     NewReleasePrice& operator = (const NewReleasePrice& price);
+    double GetCharge(int daysRented);
+    int GetFrequentRenterPoints(int daysRented);
 };
 
 class RegularPrice : public Price
@@ -49,6 +54,7 @@ public:
     ~RegularPrice();
     int GetPriceCode();
     RegularPrice& operator = (const RegularPrice& price);
+    double GetCharge(int daysRented);
 };
 
 #endif

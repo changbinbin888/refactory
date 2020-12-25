@@ -44,6 +44,7 @@ TEST_F(CustomerUT, ut_add_01)
     zhangSan.AddRental(rental4);  
     
     string ret = zhangSan.Statement();
+    //cout << ret <<endl;
     string expectRet = "Rental Record for ZhangSan\n\tmovie1\t4.500000\n\tmovie2\t3.500000\n\tmovie3\t12.000000\n\tmovie4\t0.000000\nAmount owed is 20.000000\nYou earned 5 frequent renter points";
     EXPECT_EQ(ret, expectRet);
 }
